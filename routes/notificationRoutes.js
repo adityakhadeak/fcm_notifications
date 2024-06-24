@@ -3,6 +3,7 @@ const { sendNotificationToSpecificDevice, sendNotificationToMultipleDevice, send
 
 const routerNotify = express()
 
+
 routerNotify.post('/sendtospecificdevice', sendNotificationToSpecificDevice)
 routerNotify.post('/sendtomultipledevice', sendNotificationToMultipleDevice)
 routerNotify.post('/sendtotopic', sendNotificationToTopics)
